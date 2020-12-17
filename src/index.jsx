@@ -12,6 +12,8 @@ ReactDOM.render(
 
   // Hot Module Replacement (HMR) - Remove this snippet to remove HMR
   // Learn more: https://www.snowpack.dev/concepts/hot-module-replacement
+  // React fast refresh enabled via installed plugin + added to config
+  //  @snowpack/plugin-react-refresh
 if (import.meta.hot) {
     import.meta.hot.accept()
   }
