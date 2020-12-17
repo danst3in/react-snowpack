@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
-
+import logo from './logo.svg'
+import './App.css'
 function App() {
   //  Create the count state.
   const [count, setCount] = useState(0);
@@ -12,6 +13,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src={logo} alt="logo-react" className="App-logo"/>
         <p>
           Page has been open for <code>{count}</code> seconds.
         </p>
