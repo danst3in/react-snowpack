@@ -5,7 +5,9 @@
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
   },
   "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.0.5",
     "@snowpack/plugin-react-refresh": "^2.3.9",
+    "prettier": "^2.0.5",
     "snowpack": "^2.18.4"
   },
   "dependencies": {
